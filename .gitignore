@@ -1,0 +1,25 @@
+﻿# Python environment and cache
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Dataset, generated ML files, and submissions
+dataset/
+work/
+output/
+output_v2/
+models/
+submission_build/
+submission_build_v2/
+*.duckdb
+*.parquet
+*.sqlite
+*.tsv
+*.zip
+*.log
+
+# Editor and OS files
+.vscode/
+.DS_Store
+Thumbs.db
